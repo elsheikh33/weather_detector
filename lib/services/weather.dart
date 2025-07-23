@@ -1,7 +1,7 @@
 import 'package:clima_proj/screens/loading_screen.dart';
 import 'package:clima_proj/services/networking.dart';
 import 'package:geolocator/geolocator.dart';
-const apiKey="8d8397c934b2d954925ff1d387c44f93";
+const apiKey="Add your key"; //add your key here
 class WeatherModel {
   Future<dynamic> getCityWeather(String cityName) async{
     var url = 'https://api.openweathermap.org/data/2.5/weather?q=$cityName&appid=$apiKey&units=metric';
